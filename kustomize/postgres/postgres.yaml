@@ -3,7 +3,7 @@ kind: PostgresCluster
 metadata:
   name: db
 spec:
-  image: registry.developers.crunchydata.com/crunchydata/crunchy-postgres-gis:ubi8-14.2-1
+  image: registry.developers.crunchydata.com/crunchydata/crunchy-postgres-gis:ubi8-14.2-3.1-1
   postgresVersion: 14
   users:
     - name: moke
